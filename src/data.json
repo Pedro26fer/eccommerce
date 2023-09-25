@@ -1,0 +1,34 @@
+[
+    {
+    "id": 1,
+    "section":"Lançamentos",
+    "img":"src/assets/image 1.png",
+    "description":"WHEY ZERO(COM LACTOSE)  BLACK SKULL - 900G",
+    "price":"349.90",
+    "payment":"ou 12x de R$29,16"
+    },
+    {
+    "id": 2,
+    "section":"Lançamentos",
+    "img":"src/assets/image 1.png",
+    "description":"WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
+    "price":"349.90",
+    "payment":"ou 12x de R$29,16"
+    },
+    {
+    "id": 3,
+    "section":"Lançamentos",
+    "img":"src/assets/image 1.png",
+    "description":"WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
+    "price":"349.90",
+    "payment":"ou 12x de R$29,16"
+    },
+    {
+    "id": 4,
+    "section":"Lançamentos",
+    "img":"src/assets/image 1.png",
+    "description":"WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
+    "price":"349.90",
+    "payment":"ou 12x de R$29,16"
+    }
+]
