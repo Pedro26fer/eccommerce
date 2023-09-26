@@ -13,7 +13,7 @@ export  function Professionals({data}){
                 <ul>
          
                     {professionals?.map((item) => (
-                        <li><img className="profe" src={item.professinalImage} alt="" /></li>
+                        <li key={item.id}><img className="profe" src={item.professinalImage} alt="" /></li>
                     ))}
 
                 </ul>
