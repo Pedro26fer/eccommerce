@@ -4,7 +4,7 @@ import { HeaderTwoStyled, StyleCartIcon, StyledStarIcon, StyledUserIcon } from "
 export function HeaderTwo(){
     return(
         <HeaderTwoStyled>
-            <img src="src/assets/Logo.svg" alt="Logo" />
+            <img src="/Logo.svg" alt="Logo" />
 
             <ul>
                 <li>CATEGORIA</li>

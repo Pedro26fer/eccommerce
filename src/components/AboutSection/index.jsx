@@ -4,7 +4,7 @@ export function AboutSection() {
   return (
     <AboutSectionStyle>
       <h2>Sobre a Black Skull</h2>
-      <img className="BlackAbout" src="src/assets/BlackAbout.svg" alt="" />
+      <img className="BlackAbout" src="/BlackAbout.svg" alt="" />
       <p>
         A Black Skull USA é uma marca de suplementos alimentares com foco em
         atletas de alta performance. Nossa sede no Brasil está alocada em Embu
