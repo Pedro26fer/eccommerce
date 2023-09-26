@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { NewsPromoCard } from "../NewsPromoCard";
 import { NewsPromoSectionStyled } from "./style";
 
@@ -6,7 +5,7 @@ import { NewsPromoSectionStyled } from "./style";
 export function NewsPromoSection({data, sectionName}){
     
 
-    const news = data.filter((item) => item.section == 'Lançamentos/Promoções')
+    const news = data.filter((item) => item.section === 'Lançamentos/Promoções')
 
     const formatoMoeda = new Intl.NumberFormat('Brasil', {
         style: 'currency',
