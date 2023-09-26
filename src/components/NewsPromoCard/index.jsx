@@ -1,9 +1,9 @@
 import { StyleCartIcon, StyledStarIcon } from "../Header_Two/style";
-import { SecondListStyledCard } from "./style";
+import { NewsCardStyled } from "./style";
 
-export function SecondListCard({imgPath,description,price,payment}){
+export function NewsPromoCard({imgPath,description,price,payment}){
     return(
-        <SecondListStyledCard>
+        <NewsCardStyled>
             <section>
                 <StyledStarIcon/>
                 <StyleCartIcon/>
@@ -14,6 +14,6 @@ export function SecondListCard({imgPath,description,price,payment}){
                 <p>{price}</p>
                 <span>{payment}</span>
             </div>
-        </SecondListStyledCard>
+        </NewsCardStyled>
     )
 }

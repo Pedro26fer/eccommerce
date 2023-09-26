@@ -11,7 +11,7 @@ export const FirstSectionStyled = styled.div`
   
   
 
-  width: 100vw;
+  width: 100%;
   min-height: 548px;
 
   background-image: url("src/assets/unsplash_FP7cfYPPUKM.jpg");
@@ -64,8 +64,6 @@ export const FirstSectionStyled = styled.div`
       width: 100%;
       justify-content: center;
     
-
-      padding-left: 60%;
       padding-top: 50px;
 
     }

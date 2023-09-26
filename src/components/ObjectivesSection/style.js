@@ -1,32 +1,39 @@
 import styled from "styled-components";
 import { theme } from "../theme";
-
-
-export const ThirdSectionStyled = styled.div`
+export const StyledObjectivesSection = styled.div`
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 90% ;
+    padding-top: 2%;
 
-    ul{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        list-style: none;
-    }
-
-    h3{
+    h1{
+        display: inline-block;
+        padding-left: 10%;
         font-size: 32px;
         font-style: italic;
         font-weight: 700;
         line-height: 38px;
         letter-spacing: 0em;
-        text-align: center;
+        text-transform: uppercase;
+
 
         color: ${theme.dark1};
 
     }
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        gap: 6%;
+
+        
+    }
+
 
 
 `

@@ -1,34 +1,98 @@
 [
-    {
+  {
     "id": 1,
-    "section":"Lançamentos",
-    "img":"src/assets/image 1.png",
-    "description":"WHEY ZERO(COM LACTOSE)  BLACK SKULL - 900G",
-    "price":"349.90",
-    "payment":"ou 12x de R$29,16"
-    },
-    {
+    "section": "Lançamentos/Promoções",
+    "img": "src/assets/image 1.png",
+    "description": "WHEY ZERO(COM LACTOSE)  BLACK SKULL - 900G",
+    "price": "349.90",
+    "payment": "ou 12x de R$29,16"
+  },
+  {
     "id": 2,
-    "section":"Lançamentos",
-    "img":"src/assets/image 1.png",
-    "description":"WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
-    "price":"349.90",
-    "payment":"ou 12x de R$29,16"
-    },
-    {
+    "section": "Lançamentos/Promoções",
+    "img": "src/assets/image 1.png",
+    "description": "WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
+    "price": "349.90",
+    "payment": "ou 12x de R$29,16"
+  },
+  {
     "id": 3,
-    "section":"Lançamentos",
-    "img":"src/assets/image 1.png",
-    "description":"WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
-    "price":"349.90",
-    "payment":"ou 12x de R$29,16"
-    },
-    {
+    "section": "Lançamentos/Promoções",
+    "img": "src/assets/image 1.png",
+    "description": "WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
+    "price": "349.90",
+    "payment": "ou 12x de R$29,16"
+  },
+
+  {
     "id": 4,
-    "section":"Lançamentos",
-    "img":"src/assets/image 1.png",
-    "description":"WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
-    "price":"349.90",
-    "payment":"ou 12x de R$29,16"
-    }
+    "section": "Lançamentos/Promoções",
+    "img": "src/assets/image 1.png",
+    "description": "WHEY ZERO(COM LACTOSE) BLACK SKULL - 900G",
+    "price": "349.90",
+    "payment": "ou 12x de R$29,16"
+  },
+
+  {
+    "id": 5,
+    "professinalImage": "src/assets/Card 1.png",
+    "section": "Professionals"
+  },
+
+  {
+    "id": 6,
+    "professinalImage": "src/assets/Card 4.png",
+    "section": "Professionals"
+  },
+
+  {
+    "id": 7,
+    "professinalImage": "src/assets/Card 5.png",
+    "section": "Professionals"
+  },
+  {
+    "id":8,
+    "image":"src/assets/unsplash_WvDYdXDzkhs.svg",
+    "date": "03.05.21",
+    "previa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "  ,
+    "section": "Blog"  
+  },
+  {
+    "id":9,
+    "image":"src/assets/unsplash_0ShTs8iPY28.svg",
+    "date": "03.05.21",
+    "previa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "section": "Blog"    
+  },
+  {
+    "id":10,
+    "image":"src/assets/unsplash_0Wra5YYVQJE.svg",
+    "date": "03.05.21",
+    "previa": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "section": "Blog"    
+  },
+  {
+    "id":11,
+    "imgObjective": "src/assets/objetivo1.svg",
+    "section":"Objectives",
+    "objective": "Ganho de massa"
+  },
+  {
+    "id":12,
+    "imgObjective": "src/assets/objetivo2.svg",
+    "section":"Objectives",
+    "objective": "Energia"
+  },
+  {
+    "id":13,
+    "imgObjective": "src/assets/objetivo3.svg",
+    "section":"Objectives",
+    "objective": "Recuperação Muscular"
+  },
+  {
+    "id":14,
+    "imgObjective": "src/assets/objetivo4.svg",
+    "section":"Objectives",
+    "objective": "Emagrecimento"
+  }
 ]

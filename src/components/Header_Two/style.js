@@ -12,17 +12,18 @@ export const HeaderTwoStyled = styled.div`
 
 
     align-items: center;
-    width: 100vw;
+    
     height: 72px;
+    max-width: 100vw;
     background-color: ${theme.black1};
 
     ul {
-        box-sizing: border-box;
+       
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: flex-start;
         
-        gap: 5%;
+        gap: 2%;
 
         color: ${theme.gray2};
         list-style: none;
@@ -57,6 +58,7 @@ export const HeaderTwoStyled = styled.div`
             background-color: ${theme.dark3} ;
     
             input{
+            
                 background-color: ${theme.dark3};
                 border: none;
                 outline: none;
@@ -76,7 +78,7 @@ export const HeaderTwoStyled = styled.div`
         .menu{
 
             width: 15%;
-            gap: 100%;
+            gap: 50%;
         }
 
     }

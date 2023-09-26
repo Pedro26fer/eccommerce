@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { theme } from "../theme";
 
-export const SecondListStyledCard = styled.div`
+export const NewsCardStyled = styled.div`
 
     display: flex;
     position: relative;
@@ -13,9 +13,12 @@ export const SecondListStyledCard = styled.div`
 
     width: 277px;
     height: 388px;
-    left: 56px;
 
     border: 1px solid ${theme.backGround};
+
+    img{
+        cursor: pointer;
+    }
 
     section{
         display: flex;
@@ -39,6 +42,7 @@ export const SecondListStyledCard = styled.div`
         line-height: 16px;
         letter-spacing: 0em;
         text-align: left;
+
     }
 
     div{
@@ -46,7 +50,7 @@ export const SecondListStyledCard = styled.div`
         flex-direction: column;
         justify-content: center;
     
-        width: 90%;
+        width: 80%;
 
         p{
             font-size: 22px;

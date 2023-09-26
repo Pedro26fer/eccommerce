@@ -3,14 +3,15 @@ import styled from "styled-components";
 import { theme } from "../theme";
 
 export const HeaderOneStyles = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 32px;
   background-color: ${theme.dark1};
   display: flex;
   flex-direction: row;
   font-family: Barlow;
-  justify-content: center;
-  gap: 25%;
+  justify-content: space-evenly;
+  gap: 12%;
+
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0em;
