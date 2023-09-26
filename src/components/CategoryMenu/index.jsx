@@ -8,37 +8,37 @@ export function CategoryMenu() {
       <ul>
         <li>
           <CategoryList
-            pathImage={"src/assets/image 2.svg"}
+            pathImage={"/image 2.svg"}
             category={"PROTEÍNAS"}
           />{" "}
         </li>
         <li>
           <CategoryList
-            pathImage={"src/assets/image 2.svg"}
+            pathImage={"/image 2.svg"}
             category={"HIPERCALÓRICOS"}
           />
         </li>
         <li>
           <CategoryList
-            pathImage={"src/assets/image 2.svg"}
+            pathImage={"/image 2.svg"}
             category={"CREATINA"}
           />
         </li>
         <li>
           <CategoryList
-            pathImage={"src/assets/image 2.svg"}
+            pathImage={"/image 2.svg"}
             category={"PACKS"}
           />
         </li>
         <li>
           <CategoryList
-            pathImage={"src/assets/image 2.svg"}
+            pathImage={"/image 2.svg"}
             category={"AMINOÁCIDOS"}
           />
         </li>
         <li>
           <CategoryList
-            pathImage={"src/assets/image 2.svg"}
+            pathImage={"/image 2.svg"}
             category={"SAÚDE"}
           />
         </li>

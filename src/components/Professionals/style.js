@@ -16,7 +16,7 @@ export const ProfessionalsSectionStyled = styled.div`
     
 
 
-    background-image: url('src/assets/unsplash_4aVUigDCLV8.png');
+    background-image: url('/unsplash_4aVUigDCLV8.png');
     background-size: cover;
     background-repeat: no-repeat;
 

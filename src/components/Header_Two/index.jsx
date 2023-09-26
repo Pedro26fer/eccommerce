@@ -18,7 +18,7 @@ export function HeaderTwo(){
             <section>
                 <div>
                     <input type="text" placeholder="Buscar" />
-                    <img src="src/assets/MagnifyingGlass.svg" alt="lupa" />
+                    <img src="/MagnifyingGlass.svg" alt="lupa" />
                 </div>
 
                 <ul className="menu">

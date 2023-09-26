@@ -19,7 +19,7 @@ export  function Professionals({data}){
                 </ul>
             </div>
 
-            <img className="backlogo" src="src/assets/Frame 17.svg" alt="" />
+            <img className="backlogo" src="/Frame 17.svg" alt="" />
 
             <OrangeButton text={'VER TODOS'}/>
         </ProfessionalsSectionStyled>

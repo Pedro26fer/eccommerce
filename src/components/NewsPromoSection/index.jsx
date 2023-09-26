@@ -22,7 +22,7 @@ export function NewsPromoSection({data, sectionName}){
                 ))}
             </ul>
 
-            <img className="group15" src="src/assets/Group 15.svg" alt="" />
+            <img className="group15" src="/Group 15.svg" alt="" />
                 
         </NewsPromoSectionStyled>
     )
