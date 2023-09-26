@@ -11,13 +11,18 @@ import { BlogSection } from './components/BlogSection'
 import { ObjectivesSection } from './components/ObjectivesSection'
 import { TopFooter } from './components/TopFooter'
 import { AboutSection } from './components/AboutSection'
-import { requisition } from './assets/requisition'
+
 
 function App() {
   const [data, setData] = useState([])
 
   useEffect(()=>{
-      requisition(setData)
+      axios.get('src/data.json')
+      .then((response) => {
+          const data = response.data
+          setData(data)
+      })
+      .catch((err) => console.log(err))    
   },[])
 
   return (
