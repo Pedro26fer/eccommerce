@@ -8,7 +8,6 @@ export const CategoryMenuStyled = styled.div`
   min-width: 100%;
   padding-top: 20px;
 
-  
   ul {
     width: 100%;
     display: flex;
@@ -19,8 +18,5 @@ export const CategoryMenuStyled = styled.div`
     list-style: none;
 
     padding-bottom: 3%;
-  
   }
-
-
 `;

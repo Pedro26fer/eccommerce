@@ -16,12 +16,13 @@ export const BlogSectionStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 55%;
+    gap: 60%;
 
     h2 {
       font-family: "Roboto Condensed";
       font-size: 32px;
       color: ${theme.white};
+      text-transform:uppercase;
       span {
         color: ${theme.orange1};
       }

@@ -8,16 +8,12 @@ export const FirstSectionStyled = styled.div`
   align-items: flex-start;
   position: relative;
 
-  
-  
-
   max-width: 100vw;
   min-height: 548px;
 
   background-image: url("/unsplash_FP7cfYPPUKM.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
 
   div {
     display: flex;
@@ -32,6 +28,10 @@ export const FirstSectionStyled = styled.div`
     font-family: Roboto Condensed;
     font-weight: 700;
 
+    h1{
+      text-transform: uppercase;
+    }
+
     span {
       color: ${theme.orange1};
     }
@@ -43,57 +43,51 @@ export const FirstSectionStyled = styled.div`
       width: 400px;
     }
 
-    button{
-        margin-top: 30px;
-        width: 120px;
-        height: 48px;
-        background-color: ${theme.orange1};
-        color: ${theme.black1};
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        border-radius: 4px;
-        
-        :hover{
-           color: ${theme.white};
-        }
+    button {
+      margin-top: 30px;
+      width: 120px;
+      height: 48px;
+      background-color: ${theme.orange1};
+      color: ${theme.black1};
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 4px;
+
+      :hover {
+        color: ${theme.white};
+      }
     }
 
-    section{
+    section {
       display: flex;
       width: 100%;
       justify-content: center;
-    
-      padding-top: 50px;
 
+      padding-top: 50px;
     }
   }
-  .volteAoTopo{
-    position: absolute;
+  .volteAoTopo {
+    position: fixed;
     bottom: 8%;
+    top: 74%;
     right: 3%;
     z-index: 999;
 
     cursor: pointer;
   }
-  
-  
+
   .faleConosco {
     position: absolute;
     top: 94%;
     right: 3%;
-    
+
     cursor: pointer;
-    
   }
-  
-  .group15{    
+
+  .group15 {
     position: absolute;
     bottom: 9%;
     right: 46%;
   }
-
-  
-
-
-`
+`;

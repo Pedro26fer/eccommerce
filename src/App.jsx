@@ -12,6 +12,7 @@ import { ObjectivesSection } from './components/ObjectivesSection'
 import { TopFooter } from './components/TopFooter'
 import { AboutSection } from './components/AboutSection'
 import { Info } from './components/Info/index'
+import { Footer } from './components/Footer'
 
 
 function App() {
@@ -32,14 +33,15 @@ function App() {
       <HeaderTwo/>
       <FirstSection/>
       <CategoryMenu/>
-      <NewsPromoSection data={data} sectionName={'LANÇAMENTOS'}/>
+      <NewsPromoSection data={data} sectionName={'Lançamentos'}/>
       <Professionals data={data}/>
-      <NewsPromoSection data={data} sectionName={'PROMOÇÕES'}/>
+      <NewsPromoSection data={data} sectionName={'Promoções'}/>
       <BlogSection data={data}/>
       <ObjectivesSection data={data}/>
       <TopFooter/>
       <AboutSection/>
       <Info/>
+      <Footer/>
     </StyledApp>
 
   )

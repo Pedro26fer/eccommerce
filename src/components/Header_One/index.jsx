@@ -1,15 +1,14 @@
 import { HeaderOneStyles } from "./style";
 
-
 export function HeaderOne() {
   return (
     <HeaderOneStyles>
-      <h2>FALE CONOSCO</h2>
+      <h2>Fale conosco</h2>
       <div>
         <img src="/Truck.svg" alt="truck" />
-        <h3> FRETE GRÁTIS A PARTIR DE R$ 199,90 PARA TODO O BRASIL</h3>
+        <h3> Fréte grátis a partir de R$ 199,90 para todo o BrasilL</h3>
       </div>
-      <h2>BLOG.BLACKSKULL</h2>
+      <h2>Blog.Blackskull</h2>
     </HeaderOneStyles>
   );
 }

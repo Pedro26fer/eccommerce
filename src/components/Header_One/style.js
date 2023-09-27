@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { theme } from "../theme";
 
@@ -11,6 +10,7 @@ export const HeaderOneStyles = styled.div`
   font-family: Barlow;
   justify-content: space-evenly;
   gap: 12%;
+  text-transform: uppercase;
 
   font-size: 12px;
   line-height: 14px;
@@ -45,4 +45,3 @@ export const HeaderOneStyles = styled.div`
     }
   }
 `;
-

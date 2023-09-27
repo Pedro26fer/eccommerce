@@ -7,6 +7,8 @@ export const BackGroundInfo = styled.div`
   background-color: ${theme.black1};
   padding: 5%;
   padding-top: 2%;
+  padding-bottom: 0;
+  /* padding: 2%,5% ,0; */
 
   display: flex;
   justify-content: flex-start;
@@ -19,7 +21,6 @@ export const BackGroundInfo = styled.div`
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 12%;
-    border-bottom: 1px solid ${theme.gray1};
     border-right: 1px solid ${theme.gray1};
 
     .paymentList {
@@ -101,7 +102,6 @@ export const BackGroundInfo = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border-bottom: 1px solid ${theme.gray1};
 
     max-width: 18%;
 

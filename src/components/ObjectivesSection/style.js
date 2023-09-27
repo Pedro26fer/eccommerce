@@ -1,40 +1,32 @@
 import styled from "styled-components";
 import { theme } from "../theme";
 export const StyledObjectivesSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 92%;
+  padding-top: 2%;
 
+  h1 {
+    display: inline-block;
+    padding-left: 10%;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+    color: ${theme.dark1};
+  }
+
+  ul {
+    padding-right: 2%;
+    list-style: none;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    max-width: 92% ;
-    padding-top: 2%;
-
-    h1{
-        display: inline-block;
-        padding-left: 10%;
-        font-size: 32px;
-        font-style: italic;
-        font-weight: 700;
-        line-height: 38px;
-        letter-spacing: 0em;
-        text-transform: uppercase;
-
-
-        color: ${theme.dark1};
-
-    }
-
-    ul{
-        padding-right: 2%;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 6%;
-        right: 30%;
-
-        
-    }
-
-
-
-`
+    gap: 6%;
+    right: 30%;
+  }
+`;

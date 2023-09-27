@@ -8,9 +8,9 @@ export function BlogSection({ data }) {
     <BlogSectionStyled>
       <div>
         <h2>
-          CONFIRA O <span>NOSSO BLOG</span>
+          confira o <span>nosso blog</span>
         </h2>
-        <OrangeButton text={"LER TODOS"} />
+        <OrangeButton text={"ler todos"} />
       </div>
       <ul>
         {previaBlog?.map((item) => (

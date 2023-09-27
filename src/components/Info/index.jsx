@@ -116,9 +116,17 @@ export function Info() {
         </h2>
 
         <div>
-            <input className="footerInput" type="text" placeholder="Digite seu nome" />
-            <input className="footerInput" type="text" placeholder="Digite seu email"/>
-            <OrangeButton text={'enviar'}/>
+          <input
+            className="footerInput"
+            type="text"
+            placeholder="Digite seu nome"
+          />
+          <input
+            className="footerInput"
+            type="text"
+            placeholder="Digite seu email"
+          />
+          <OrangeButton text={"enviar"} />
         </div>
       </footer>
     </BackGroundInfo>
