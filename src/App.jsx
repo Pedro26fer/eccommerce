@@ -11,6 +11,7 @@ import { BlogSection } from './components/BlogSection'
 import { ObjectivesSection } from './components/ObjectivesSection'
 import { TopFooter } from './components/TopFooter'
 import { AboutSection } from './components/AboutSection'
+import { Info } from './components/Info/index'
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <ObjectivesSection data={data}/>
       <TopFooter/>
       <AboutSection/>
+      <Info/>
     </StyledApp>
 
   )

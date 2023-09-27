@@ -4,27 +4,33 @@ import { theme } from '../theme'
 export const ProfessionalsSectionStyled = styled.div`
 
     padding-bottom:20px;
-    width: 100%;
     margin-top: 5%;
     margin-bottom: 4%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
     position: relative;
     z-index: 1;
     
 
 
     background-image: url('/unsplash_4aVUigDCLV8.png');
+    background-color: ${theme.black1};
     background-size: cover;
     background-repeat: no-repeat;
 
     .backlogo{
         position: absolute;
         z-index: 1;
-        left: 80%;
+        right: -0.7%;
         top: 1%;
+        width: 483px;
+        height: 314px;
+        opacity: 60%
+
     }
 
     .profe{
@@ -40,7 +46,8 @@ export const ProfessionalsSectionStyled = styled.div`
         
         background-color: ${theme.orange1};
         position: absolute;
-        top: 95%
+        top: 97%;
+        right:46%
     
     }
 
@@ -65,12 +72,14 @@ export const ProfessionalsSectionStyled = styled.div`
         }
 
         ul{
+            max-width: 100%;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            gap: 22%;
+            gap: 20%;
             list-style: none;
+        
 
         }
     

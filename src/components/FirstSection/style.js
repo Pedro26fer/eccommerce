@@ -11,7 +11,7 @@ export const FirstSectionStyled = styled.div`
   
   
 
-  width: 100%;
+  max-width: 100vw;
   min-height: 548px;
 
   background-image: url("/unsplash_FP7cfYPPUKM.jpg");

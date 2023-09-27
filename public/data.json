@@ -2,7 +2,7 @@
   {
     "id": 1,
     "section": "Lançamentos/Promoções",
-    "img": "public/image 1.png",
+    "img": "/image 1.png",
     "description": "WHEY ZERO(COM LACTOSE)  BLACK SKULL - 900G",
     "price": "349.90",
     "payment": "ou 12x de R$29,16"
@@ -35,19 +35,19 @@
 
   {
     "id": 5,
-    "professinalImage": "/Card 1.png",
+    "professinalImage": "/Card 1.svg",
     "section": "Professionals"
   },
 
   {
     "id": 6,
-    "professinalImage": "/Card 4.png",
+    "professinalImage": "/Card 4.svg",
     "section": "Professionals"
   },
 
   {
     "id": 7,
-    "professinalImage": "/Card 5.png",
+    "professinalImage": "/Card 5.svg",
     "section": "Professionals"
   },
   {

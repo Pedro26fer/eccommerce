@@ -27,7 +27,7 @@ export const NewsPromoSectionStyled = styled.div`
     ul{
         display: flex;
         justify-content: center;
-        gap: 9%;
+        gap: 8%;
         list-style: none;
         padding-bottom: 3%;
 

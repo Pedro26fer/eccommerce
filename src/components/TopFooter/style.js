@@ -7,13 +7,12 @@ export const TopFooterStyled = styled.div`
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding-top: 3%;
     padding-bottom: 5%;
-    margin-left: 5%;
-    gap: 5%;
+    gap: 6%;
 
     div{
         background: linear-gradient(213.8deg, ${theme.gray1} -17.86%, ${theme.black1} 73%);

@@ -6,7 +6,7 @@ export const StyledObjectivesSection = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 90% ;
+    max-width: 92% ;
     padding-top: 2%;
 
     h1{
@@ -25,11 +25,12 @@ export const StyledObjectivesSection = styled.div`
     }
 
     ul{
+        padding-right: 2%;
         list-style: none;
         display: flex;
         justify-content: center;
-        width: 90%;
         gap: 6%;
+        right: 30%;
 
         
     }
