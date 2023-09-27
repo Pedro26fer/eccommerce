@@ -12,10 +12,9 @@ export function AboutSection() {
           das Artes – SP, com mais de 12.000 m² de área construída, com alta
           capacidade produtiva. Nossos produtos trabalham com as melhores
           matérias-primas do mercado e tem como principal característica maior
-          concentração de insumos, que proporcionam níveis de pureza mais altos e
-          por consequência otimizam a qualidade de nossos produtos.
+          concentração de insumos, que proporcionam níveis de pureza mais altos
+          e por consequência otimizam a qualidade de nossos produtos.
         </p>
-
       </div>
     </AboutSectionStyle>
   );

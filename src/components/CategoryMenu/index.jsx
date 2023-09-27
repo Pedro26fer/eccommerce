@@ -1,47 +1,20 @@
 import { CategoryList } from "../FirstListCard";
 import { CategoryMenuStyled } from "./style";
 
-export function CategoryMenu() {
+export function CategoryMenu({data}) {
+
+  const categorys = ['Proteínas','Hipercalóricos','Creatina','Packs','Aminoácidos', 'Saúde']
+  const pathImage = '/image 2.svg'
+
+
+
   return (
     <CategoryMenuStyled>
 
       <ul>
-        <li>
-          <CategoryList
-            pathImage={"/image 2.svg"}
-            category={"PROTEÍNAS"}
-          />{" "}
-        </li>
-        <li>
-          <CategoryList
-            pathImage={"/image 2.svg"}
-            category={"HIPERCALÓRICOS"}
-          />
-        </li>
-        <li>
-          <CategoryList
-            pathImage={"/image 2.svg"}
-            category={"CREATINA"}
-          />
-        </li>
-        <li>
-          <CategoryList
-            pathImage={"/image 2.svg"}
-            category={"PACKS"}
-          />
-        </li>
-        <li>
-          <CategoryList
-            pathImage={"/image 2.svg"}
-            category={"AMINOÁCIDOS"}
-          />
-        </li>
-        <li>
-          <CategoryList
-            pathImage={"/image 2.svg"}
-            category={"SAÚDE"}
-          />
-        </li>
+        {categorys.map((category) => (
+          <li key={category}><CategoryList pathImage={pathImage} category={category.toUpperCase()}/></li>
+        ))}       
       </ul>
     
     </CategoryMenuStyled>
