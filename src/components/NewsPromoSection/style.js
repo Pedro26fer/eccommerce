@@ -3,29 +3,36 @@ import { theme } from "../theme";
 
 export const NewsPromoSectionStyled = styled.div`
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 100vw;
 
-  .arrow {
+
+  .group15 {
+    width: 140px;
+  }
+  
+  .arrowLeft {
     position: absolute;
-    top: 50%;
-    right: 90%;
+    top: 30%;
+    left: 106%;
     z-index: 2;
   }
 
-  .arrow_two {
+  .arrowRight {
+    z-index: 2;
     position: absolute;
-    top: 50%;
-    left: 92.5%;
+    top: 30%;
+    right: 102%;
   }
 
   ul {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
-    gap: 8%;
+    gap: 5%;
     list-style: none;
     padding-bottom: 3%;
   }

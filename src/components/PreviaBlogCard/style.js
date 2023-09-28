@@ -4,11 +4,13 @@ export const StyledPreviaBlogCard = styled.div`
     
     display: flex;
     flex-direction: column;
+    
 
 
 
     background-color: ${theme.dark3};
     width: 376px;
+    height: 380ps;
     border: 0.2px solid ${theme.gray2};
 
     color: ${theme.white};
@@ -28,10 +30,9 @@ export const StyledPreviaBlogCard = styled.div`
 
     p{
         display: inline-flex;
-        padding-right: 8%;
+        padding-right: 10%;
         width: 80%;
-        padding-bottom: 8%;
-
+        margin-top: 0;
 
         font-family: Barlow;
         font-size: 18px;
@@ -42,8 +43,14 @@ export const StyledPreviaBlogCard = styled.div`
     }
 
     button{
-        margin-right: 60%;
+        margin-right: 55%;
         margin-bottom: 5%;
+        width: 138px;
+        height: 40px;
+        padding: 14px, 24px, 14px, 24px;
+        border-radius: 4px;
+
+
     }
 
     

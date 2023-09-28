@@ -13,6 +13,7 @@ export function NewsPromoSection({ data, sectionName }) {
     <NewsPromoSectionStyled>
       <h1>{sectionName.toUpperCase()}</h1>
       <ul>
+        <img className="arrowRight" src="/Rectangle 49.svg" alt="" />
         {news.map((item) => (
           <li key={item.id}>
             <NewsPromoCard
@@ -23,6 +24,7 @@ export function NewsPromoSection({ data, sectionName }) {
             />
           </li>
         ))}
+        <img className="arrowLeft" src="/Rectangle 50.svg" alt="" />
       </ul>
 
       <img className="group15" src="/Group 15.svg" alt="" />

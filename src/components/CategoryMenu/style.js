@@ -1,21 +1,39 @@
 import styled from "styled-components";
-import { theme } from "../theme";
+
 
 export const CategoryMenuStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 100%;
+  width: 100vw;
   padding-top: 20px;
+  z-index: 1;
+  
+  .arrowLeft{
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    right: 98.3%;
 
+  }
+
+  .arrowRight{
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 102%;
+  }
+  
   ul {
-    width: 100%;
+    position: relative;
+    width: 1190px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 3%;
+    gap: 2.3%;
     list-style: none;
+    z-index: 1;
 
     padding-bottom: 3%;
   }

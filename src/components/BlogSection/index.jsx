@@ -6,13 +6,14 @@ export function BlogSection({ data }) {
   const previaBlog = data.filter((item) => item.section == "Blog");
   return (
     <BlogSectionStyled>
-      <div>
+      <div className="headeBlog">
         <h2>
           confira o <span>nosso blog</span>
         </h2>
         <OrangeButton text={"ler todos"} />
       </div>
       <ul>
+        <img className="arrowLeft" src="/Rectangle 49.svg" alt="" />
         {previaBlog?.map((item) => (
           <li key={item.id}>
             <PreviaBlogCard
@@ -22,6 +23,7 @@ export function BlogSection({ data }) {
             />
           </li>
         ))}
+        <img className="arrowRight" src="/Rectangle 50.svg" alt="" />
       </ul>
     </BlogSectionStyled>
   );

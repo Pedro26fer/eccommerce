@@ -9,9 +9,9 @@ export const FirstSectionStyled = styled.div`
   position: relative;
 
   max-width: 100vw;
-  min-height: 548px;
+  min-height: 588px;
 
-  background-image: url("/unsplash_FP7cfYPPUKM.jpg");
+  background-image: url("/unsplash_FP7cfYPPUKM.svg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -22,7 +22,7 @@ export const FirstSectionStyled = styled.div`
     align-items: flex-start;
     width: 591px;
     height: 288px;
-    padding-left: 100px;
+    padding-left: 150px;
 
     color: ${theme.white};
     font-family: Roboto Condensed;
@@ -78,8 +78,10 @@ export const FirstSectionStyled = styled.div`
   }
 
   .faleConosco {
+    width: 124px;
+    height: 40px;
     position: absolute;
-    top: 94%;
+    top: 95.5%;
     right: 3%;
 
     cursor: pointer;
@@ -89,5 +91,6 @@ export const FirstSectionStyled = styled.div`
     position: absolute;
     bottom: 9%;
     right: 46%;
+    width: 140px;
   }
 `;

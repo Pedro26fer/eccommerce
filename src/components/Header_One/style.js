@@ -24,6 +24,7 @@ export const HeaderOneStyles = styled.div`
     display: inline-flex;
     align-items: center;
     color: ${theme.orange1};
+    line-height: 14.4px;
   }
 
   div {
@@ -37,11 +38,16 @@ export const HeaderOneStyles = styled.div`
     h3 {
       line-height: 12px;
       padding-top: 5px;
+      height: 14.4px;
+      top: 6px;
+      left: 499px;
+
     }
 
     img {
       width: 25px;
       height: 25px;
+      line-height: 14.4px;
     }
   }
 `;

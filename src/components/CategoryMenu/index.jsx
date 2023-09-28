@@ -15,6 +15,7 @@ export function CategoryMenu({ data }) {
   return (
     <CategoryMenuStyled>
       <ul>
+        <img className="arrowLeft" src="/Rectangle 49.svg" alt="" />
         {categorys.map((category, index) => (
           <li key={index}>
             <CategoryList
@@ -23,6 +24,7 @@ export function CategoryMenu({ data }) {
             />
           </li>
         ))}
+        <img className="arrowRight" src="/Rectangle 50.svg" alt="" />
       </ul>
     </CategoryMenuStyled>
   );

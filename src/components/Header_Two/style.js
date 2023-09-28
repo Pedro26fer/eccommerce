@@ -7,7 +7,9 @@ import { AiOutlineStar } from "react-icons/ai";
 export const HeaderTwoStyled = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
+  padding-right: 100px;
 
   align-items: center;
 
@@ -29,6 +31,7 @@ export const HeaderTwoStyled = styled.div`
     font-family: Barlow;
     font-size: 14px;
     font-weight: 700;
+    line-height: 16px;
 
     :hover {
       cursor: pointer;
@@ -39,13 +42,14 @@ export const HeaderTwoStyled = styled.div`
   section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 19%;
 
     div {
       display: flex;
       align-items: center;
       justify-content: center;
+      padding-right: 5px;
 
       width: 80%;
       height: 40px;
@@ -59,11 +63,14 @@ export const HeaderTwoStyled = styled.div`
         outline: none;
         caret-color: ${theme.gray1};
         color: ${theme.white};
+        width: 216px;
+        
 
         &::placeholder {
           color: ${theme.gray1};
           font-weight: bold;
           font-family: Barlow;
+          padding: 0px 5px 0px 5px;
         }
       }
     }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { theme } from "../theme";
 
 export const ProfessionalsSectionStyled = styled.div`
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin-top: 5%;
   margin-bottom: 4%;
 
@@ -27,7 +27,7 @@ export const ProfessionalsSectionStyled = styled.div`
     top: 1%;
     width: 483px;
     height: 314px;
-    opacity: 60%;
+    opacity: 0.2;
   }
 
   .profe {
@@ -43,33 +43,33 @@ export const ProfessionalsSectionStyled = styled.div`
 
     background-color: ${theme.orange1};
     position: absolute;
-    top: 97%;
+    top: 95%;
     right: 46%;
   }
 
   h1 {
     color: ${theme.white};
-    padding-right: 28%;
+    padding-right: 18%;
     text-transform: uppercase;
   }
 
   div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   span {
     color: ${theme.orange1};
   }
 
   ul {
-    max-width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20%;
+    gap: 2%;
     list-style: none;
   }
 `;

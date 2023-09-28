@@ -22,11 +22,11 @@ export const StyledObjectivesSection = styled.div`
   }
 
   ul {
-    padding-right: 2%;
+
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 6%;
-    right: 30%;
+    gap: 2%;
+    padding-right: 2.3%;
   }
 `;

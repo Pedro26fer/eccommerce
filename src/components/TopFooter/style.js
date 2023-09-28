@@ -10,7 +10,7 @@ export const TopFooterStyled = styled.div`
   align-items: center;
   padding-top: 3%;
   padding-bottom: 5%;
-  gap: 6%;
+  gap: 2%;
 
   div {
     background: linear-gradient(
@@ -18,7 +18,7 @@ export const TopFooterStyled = styled.div`
       ${theme.gray1} -17.86%,
       ${theme.black1} 73%
     );
-    width: 30vw;
+    width: 27vw;
     height: 33vh;
     padding: 1%;
     padding-left: 4%;
@@ -40,13 +40,13 @@ export const TopFooterStyled = styled.div`
     .cubic {
       position: absolute;
       top: 30%;
-      left: 30%;
+      left: 35%;
     }
 
     .dollar {
       position: absolute;
       top: 30%;
-      left: 75%;
+      left: 69%;
     }
   }
 `;

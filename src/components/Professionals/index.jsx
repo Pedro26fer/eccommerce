@@ -11,6 +11,7 @@ export function Professionals({ data }) {
       </h1>
       <div>
         <ul>
+          <img src="/Rectangle 49.svg" alt="" />
           {professionals?.map((item) => (
             <li key={item.id}>
               <img
@@ -21,6 +22,7 @@ export function Professionals({ data }) {
               />
             </li>
           ))}
+          <img src="/Rectangle 50.svg" alt="" />
         </ul>
       </div>
 
