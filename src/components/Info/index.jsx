@@ -6,32 +6,42 @@ import {
   BsYoutube,
   BsCreditCard,
 } from "react-icons/bs";
-import { AiFillTwitterCircle } from "react-icons/ai";
 import { PiTiktokLogoFill } from "react-icons/pi";
 import { SiMercadopago, SiPix, SiNubank, SiPicpay } from "react-icons/si";
-import { FaCcVisa, FaCcMastercard, FaFileInvoiceDollar } from "react-icons/fa";
+import { FaCcVisa, FaCcMastercard, FaFileInvoiceDollar, FaTwitter } from "react-icons/fa";
+import { LiaFacebookF } from  "react-icons/lia"
 
 export function Info() {
   return (
     <BackGroundInfo>
       <header>
-        <img className="headererInfo" src="/LogoFooter.svg" alt="" />
+        <img className="Logo" src="/LogoFooter.svg" alt="" />
         <h2>Nos Siga</h2>
         <ul>
           <li>
-            <BsFacebook color="white" />
+            <div>
+              <LiaFacebookF color="black" />
+            </div>
           </li>
           <li>
-            <BsInstagram color="white" />
+            <div>
+              <BsInstagram color="black" />
+            </div>
           </li>
           <li>
-            <BsYoutube color="white" />
+            <div>
+              <BsYoutube color="black" />
+            </div>
           </li>
           <li>
-            <AiFillTwitterCircle color="white" />
+            <div>
+              <FaTwitter color="black" />
+            </div>
           </li>
           <li>
-            <PiTiktokLogoFill color="white" />
+            <div>
+              <PiTiktokLogoFill color="black" />
+            </div>
           </li>
         </ul>
       </header>
@@ -67,32 +77,53 @@ export function Info() {
           </ul>
         </div>
 
-        <div>
+        <div className="paymentDiv">
           <h1>FORMAS DE PAGAMENTO</h1>
           <ul className="paymentList">
             <li>
-              <SiMercadopago color="white" size={25} />
+              <div>
+                <img src="/Group 171.svg" alt="" width={''} />
+              </div>
             </li>
             <li>
-              <FaCcVisa color="white" size={25} />
+              <div>
+                <img src="/visa.svg" alt="" />
+              </div>
             </li>
             <li>
-              <FaCcMastercard color="white" size={25} />
+              <div>
+                <img src="/Mastercard.svg" alt="" />
+              </div>
             </li>
             <li>
-              <SiNubank color="white" size={25} />
+              <div>
+                <img src="/Group.svg" alt="" />
+              </div>
             </li>
             <li>
-              <SiPix color="white" size={25} />
+              <div>
+                <img src="/Group 146.svg" alt="" />
+              </div>
             </li>
             <li>
-              <FaFileInvoiceDollar color="white" size={25} />
+              <div className="amex">
+                <img src="/Group 147.svg" alt="" />
+              </div>
             </li>
             <li>
-              <SiPicpay color="white" size={25} />
+              <div>
+                <img src="/DinersClub.svg" alt="" />
+              </div>
             </li>
             <li>
-              <BsCreditCard color="white" size={25} />
+              <div>
+                <img src="/Elo.svg" alt="" />
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="/Boleto.svg" alt="" />
+              </div>
             </li>
           </ul>
         </div>

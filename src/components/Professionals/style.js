@@ -35,6 +35,15 @@ export const ProfessionalsSectionStyled = styled.div`
     z-index: 2;
   }
 
+  .rightArrow{
+    cursor: pointer;
+  }
+  
+  .leftArrow{
+    cursor: pointer;
+  }
+  
+
   button {
     width: 8%;
     height: 9%;

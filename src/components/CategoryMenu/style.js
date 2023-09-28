@@ -14,6 +14,7 @@ export const CategoryMenuStyled = styled.div`
     z-index: 2;
     top: 30%;
     right: 98.3%;
+    cursor: pointer;
 
   }
 
@@ -22,6 +23,7 @@ export const CategoryMenuStyled = styled.div`
     z-index: 2;
     top: 30%;
     left: 102%;
+    cursor: pointer;
   }
   
   ul {

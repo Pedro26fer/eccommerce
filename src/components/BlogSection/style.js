@@ -46,6 +46,7 @@ export const BlogSectionStyled = styled.div`
       .arrowLeft{
         position: absolute;
         left: 4.5%;
+        cursor: pointer;
       }
 
       position: relative;
@@ -59,6 +60,7 @@ export const BlogSectionStyled = styled.div`
     .arrowRight{
       position: absolute;
       right: 1.4%;
+      cursor: pointer;
     }
   }
 `;

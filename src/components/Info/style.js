@@ -6,9 +6,8 @@ export const BackGroundInfo = styled.div`
   min-height: 588px;
   background-color: ${theme.black1};
   padding: 5%;
-  padding-top: 2%;
+  padding-top: 0;
   padding-bottom: 0;
-  /* padding: 2%,5% ,0; */
 
   display: flex;
   justify-content: flex-start;
@@ -16,32 +15,76 @@ export const BackGroundInfo = styled.div`
   gap: 3%;
 
   main {
-    max-width: 51%;
+
+    div{
+      padding-top: 8.3%;
+
+    }
+    
+    max-width:51%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 12%;
+    gap: 9%;
     border-right: 1px solid ${theme.gray1};
+
+    li{
+      cursor: pointer;
+    }
+
+    .paymentDiv{
+      width: 207px;
+    }
 
     .paymentList {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      
 
-      gap: 11%;
-      width: 160%;
+      gap: 3%;
+      width: 100%;
+      padding-bottom: 15%;
+      padding-top: 2%;
+
+      .amex{
+        background-color: #0f71ff;
+      }
+
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 10%;
+        width: 34px;
+        height: 24px;
+        margin-bottom: 27%;
+        
+
+      }
     }
 
     .security {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding-left: 10%;
       justify-content: flex-start;
+      
       div {
         flex-direction: row;
-        gap: 7%;
+        gap: 6%;
+        padding-top: 9%;
       }
+    }
+
+
+
+    div h1{
+      
+      display: inline-flex;
+      padding: 0;
+
     }
   }
 
@@ -57,7 +100,8 @@ export const BackGroundInfo = styled.div`
       letter-spacing: 0em;
       text-align: left;
       color: ${theme.white};
-      padding-top: 6%;
+      padding-top: 18%;
+      padding-bottom: 18%;
     }
 
     ul {
@@ -77,7 +121,13 @@ export const BackGroundInfo = styled.div`
   header {
     flex-direction: column;
     text-align: center;
-    border-bottom: 1px solid ${theme.gray1};
+    width: 16%;
+    .Logo{
+      padding-bottom: 20%;
+      padding-top: 20%;
+    }
+
+    
 
     h2 {
       color: ${theme.white};
@@ -95,13 +145,19 @@ export const BackGroundInfo = styled.div`
       justify-content: center;
       gap: 8%;
       padding-left: 3%;
+      li{
+        background-color: white;
+        border-radius: 100%;
+        padding: 1.3%;
+        cursor: pointer;
+      }
     }
   }
 
   footer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    padding-top: 3%;
 
     max-width: 18%;
 

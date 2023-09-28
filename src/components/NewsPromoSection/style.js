@@ -18,6 +18,7 @@ export const NewsPromoSectionStyled = styled.div`
     top: 30%;
     left: 106%;
     z-index: 2;
+    cursor: pointer;
   }
 
   .arrowRight {
@@ -25,6 +26,7 @@ export const NewsPromoSectionStyled = styled.div`
     position: absolute;
     top: 30%;
     right: 102%;
+    cursor: pointer;
   }
 
   ul {
