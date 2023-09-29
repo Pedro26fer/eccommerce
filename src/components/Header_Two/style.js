@@ -78,6 +78,36 @@ export const HeaderTwoStyled = styled.div`
     .menu {
       width: 15%;
       gap: 30%;
+
+      li{
+        position: relative;
+        z-index: 1
+      }
+
+      .counterProducts{
+        position: absolute;
+        z-index: 2;
+        bottom: 55%;
+        left: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+
+        border-radius: 100%;
+        background-color: ${theme.orange1};
+        color: ${theme.black1};
+
+        font-family: Barlow;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+      }
     }
   }
 `;

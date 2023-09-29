@@ -1,11 +1,15 @@
+import { CounterContext } from "../../Providers";
 import {
   HeaderTwoStyled,
   StyleCartIcon,
   StyledStarIcon,
   StyledUserIcon,
 } from "./style";
+import { useContext } from "react"
 
 export function HeaderTwo() {
+
+  const { counter, subProduct } = useContext(CounterContext)
   return (
     <HeaderTwoStyled>
       <img src="/Logo.svg" alt="Logo" />
@@ -33,7 +37,13 @@ export function HeaderTwo() {
             <StyledStarIcon />
           </li>
           <li>
-            <StyleCartIcon />
+            {counter > 0 ? (
+              <span className="counterProducts">0{counter}</span>
+            )
+            :
+            null
+          }
+            <StyleCartIcon onClick={subProduct} />
           </li>
         </ul>
       </section>

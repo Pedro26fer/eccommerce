@@ -1,7 +1,7 @@
 import { NewsPromoCard } from "../NewsPromoCard";
 import { NewsPromoSectionStyled } from "./style";
 
-export function NewsPromoSection({ data, sectionName }) {
+export function NewsPromoSection({ data, sectionName, chi }) {
   const news = data.filter((item) => item.section === "Lançamentos/Promoções");
 
   const formatoMoeda = new Intl.NumberFormat("Brasil", {
